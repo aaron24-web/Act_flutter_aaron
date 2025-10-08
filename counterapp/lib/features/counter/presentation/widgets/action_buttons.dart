@@ -1,7 +1,6 @@
 
 import 'package:counterapp/features/counter/presentation/widgets/decrement_button.dart';
 import 'package:counterapp/features/counter/presentation/widgets/increment_button.dart';
-import 'package:counterapp/features/counter/presentation/widgets/reset_fab_button.dart';
 import 'package:flutter/material.dart';
 
 class ActionButtons extends StatelessWidget {
@@ -13,7 +12,6 @@ class ActionButtons extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         DecrementButton(),
-        ResetFabButton(),
         IncrementButton(),
       ],
     );
