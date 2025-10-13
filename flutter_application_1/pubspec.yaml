@@ -1,0 +1,45 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  
+  # 4. Agregados: Paquetes que faltaban para que 'counterapp' funcione
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  english_words: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # 1. Paquete para generar los íconos de la app
+  flutter_launcher_icons: "^0.13.1"
+
+# 2. Configuración para el paquete flutter_launcher_icons
+flutter_launcher_icons:
+  # Ruta a la imagen del ícono (se recomienda 1024x1024)
+  image_path: "assets/icon/icon5.png" 
+  
+  # Genera el ícono para Android
+  android: true
+  
+  # Genera el ícono para iOS
+  ios: true
+  
+  # 3. Agregado: Genera el ícono para macOS
+  macos:
+    generate: true
+
+flutter:
+  uses-material-design: true
+
