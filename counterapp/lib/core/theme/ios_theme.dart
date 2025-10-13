@@ -22,9 +22,9 @@ class IosTheme {
       ),
       iconButtonTheme: IconButtonThemeData(
         style: ButtonStyle(
-          foregroundColor: MaterialStateProperty.all(CupertinoColors.white),
-          backgroundColor: MaterialStateProperty.all(CupertinoColors.activeBlue),
-          shape: MaterialStateProperty.all(
+          foregroundColor: WidgetStateProperty.all(CupertinoColors.white),
+          backgroundColor: WidgetStateProperty.all(CupertinoColors.activeBlue),
+          shape: WidgetStateProperty.all(
             const CircleBorder(),
           ),
         ),
